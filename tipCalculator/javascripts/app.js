@@ -19,7 +19,7 @@ tipCalculator.controller('Main.Controller', ['$scope', function($scope) {
     return subTotal; 
   }
 
-// This function changes the color of the tip amount. Ex: Under 10% is red. 
+// This function changes the color of the tip amount. For example, if you enter an amount under 10% is red. 
   $scope.calculateTip = function(tip){
     if(tip >= 20){
       $scope.highlight = "success"; 
